@@ -1,15 +1,16 @@
 {
-  "name": "nono",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "astro": "^2.2.3"
-  }
+    "name": "nono",
+    "type": "module",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "astro dev",
+        "start": "astro dev",
+        "build": "astro build",
+        "astro": "astro",
+        "preview": "wrangler pages dev ./dist"
+    },
+    "dependencies": {
+        "@astrojs/cloudflare": "^6.2.2",
+        "astro": "^2.2.3"
+    }
 }
